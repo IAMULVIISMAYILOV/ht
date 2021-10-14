@@ -1,0 +1,42 @@
+.container {
+  background-image: url(/assets/images/bg-pic.jpg);
+}
+
+.container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 50px auto;
+  height: 500px;
+}
+
+.container .content h2 {
+  margin-top: 20px;
+  color: rgb(31 158 187);
+  font-size: 40px;
+  text-shadow: 2px 2px #1a1b1f;
+}
+
+.container .content .action1,
+.action2,
+.action3,
+.action4 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(31, 165, 187);
+  text-shadow: 2px 2px #1a1b1f;
+  font-weight: bold;
+}
+
+.container .content .btn {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.reachToContent {
+  color: rgb(31, 165, 187);
+  text-shadow: 2px 2px #1a1b1f;
+  font-size: 30px;
+  padding-top: 178px;
+}
